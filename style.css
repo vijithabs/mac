@@ -84,6 +84,7 @@
 .text {
     flex: 1;
     background-color: aqua;
+    align-items: center;
 
 
 }
