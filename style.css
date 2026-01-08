@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+
+}
+
+.box {
+
+
+    background-color: rgb(233, 194, 146);
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.box1 {
+    display: flex;
+    gap: 20px;
+}
+
+.circle {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(231, 223, 213);
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+}
+
+.img2 {
+    width: 30px;
+}
+
+
+
+.section {
+    height: 30px;
+    width: 55px;
+    background-color: rgb(167, 236, 179);
+
+
+    padding: 10px;
+
+
+}
+
+.img1 {
+
+    width: 400px;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+
+    margin: 0px 100px;
+
+    max-height: 500px;
+}
+
+#rrr {
+    color: red;
+}
+
+.rr>.p {
+    color: blue;
+}
+.container>div:nth-of-type(1)>#rrr{
+    color: chocolate;
+   
+
+}
+
+
+
+
+
+.text {
+    flex: 1;
+    background-color: aqua;
+
+
+}
+
+.cat-img {
+    flex: 1;
+    background-color: antiquewhite;
+}
+
+.cat {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.same {
+
+    text-align: center;
+}
+
+.box2 {
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+}
+
+.container1,
+.container2,
+.container3 {
+
+    width: 300px;
+    background-color: rgb(164, 226, 205);
+    border-color: black;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.container2 {
+    background-color: rgb(193, 240, 132);
+}
+
+.container3 {
+    background-color: hsl(48, 69%, 72%);
+}
